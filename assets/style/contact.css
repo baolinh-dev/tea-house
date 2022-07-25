@@ -1,0 +1,43 @@
+.contact--feedback { 
+    padding: 0 52px !important;
+} 
+.contact--subtext { 
+    font-family: "Quicksand",sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #282828;
+    display: block;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+.contact--form { 
+    
+}
+.contact--form input,
+.contact--form textarea{  
+    padding: 16px; 
+    border: 1px solid #ddd; 
+    border-radius: 40px; 
+    display: block; 
+    width: 100%; 
+    margin-bottom: 20px; 
+    outline: none;
+}
+.btn-send-mes {
+    padding: 12px 20px;
+    border-radius: 40px;
+    margin: 28px 8px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    color: #fff; 
+    background-color: #4d8a54; 
+    border: 1px solid transparent;
+} 
+.btn-send-mes:hover { 
+    background-color: #fff; 
+    color: #000; 
+    border: #4d8a54 1px solid;
+}

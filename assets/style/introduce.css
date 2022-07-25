@@ -1,0 +1,28 @@
+.breadcum { 
+    margin-top: 184px; 
+}
+.breadcum li{ 
+    list-style-type: none; 
+    display: inline-block;
+}
+.breadcum li a{ 
+    color: #000;    
+    font-weight: 500; 
+    font-size: 14px;
+} 
+.breadcum a:hover{  
+    color: #000;
+    text-decoration: none;
+}
+.breadcum li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+} 
+.introduce--content { 
+    margin: 52px 0;
+}
+.introduce--content p{ 
+    margin-bottom: 15px; 
+    font-weight: 400;
+}   

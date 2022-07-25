@@ -1,0 +1,100 @@
+/* Common CSS */ 
+.pad-80-t {  
+    padding-top: 80px !important;
+} 
+.color-main {  
+    color: #4d8a54;
+}
+/* Common CSS */
+.new-mini { 
+    display: flex;
+}
+.new--mini__image { 
+    width: 160px;
+} 
+.new--mini__content {   
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+    padding: 0 8px;
+}
+.new--mini__content h3{  
+    font-size: 16px;  
+    font-weight: bolder;
+    text-transform: uppercase; 
+} 
+.new--mini__content h3:hover {
+    color: #4d8a54; 
+    transition: all 0.3s ease-in-out;
+}
+.new--mini__content p{  
+    font-size: 14px;
+} 
+.common__heading__new {  
+
+}
+.common__heading__new h3{    
+    padding-bottom: 15px;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    color: #282828;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: normal;
+    position: relative;
+    letter-spacing: -2px;
+    word-spacing: 2px; 
+    border-bottom: 1px solid #d6d6d6;
+} 
+.common__heading__new h3:before {
+    content: "";
+    position: absolute;
+    width: 75%;
+    height: 3px;
+    background: #4d8a54;
+    bottom: 0;
+    left: 0;
+}
+.new--category { 
+    margin-top: 25px;
+}
+.new--category li{ 
+    list-style-type: none; 
+    padding: 8px;
+}
+.new--category li a{ 
+    color: #000; 
+    text-decoration: none;
+}  
+.new--category li i { 
+    font-weight: bolder;
+} 
+.new--category li a:hover { 
+    color: #4d8a54; 
+} 
+.new--about { 
+    
+}
+.new--about img{ 
+    width: 100%;
+}
+.new--about p{ 
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 15px;
+}
+.new--about button{ 
+    background: #4d8a54;
+    padding: 0 33px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block; 
+    outline: none;
+}
+.new--about button:hover { 
+    background-color: #000;
+}
